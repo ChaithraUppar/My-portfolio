@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/826b9c1933.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style2.css">   
+</head>
+<body>
+   
+    <div id="header">
+           <nav>
+            <img src="images/logo.png" class ="logo">
+            <ul id="sidemenu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#portfolio">PROJECTS</a></li>
+                <li><a href="#cona">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+        <div class="container" >
+            <div class="header-text">              
+                 <h1><p>HELLO!</p> THIS IS <span>CHAITHRA</span>
+                  <p style="align-items: center">I am an Engineering student</p></h1>
+                                   <img id="img1" src="images/Me.jpeg" height="240px">
+                                   <img id="img2" src="images/Mem.jpg" height="400px">
+                   
+            </div>
+               </div>
+               
+              
+            <div id="about">
+                <div class="container">
+                <div class="row">
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p style="font-size: 19px;">I am Chaithra R currently a CSE student at JNNCE College Shimoga. Apart from being an CSE student I am also a Dancer. To know more about me just go through below specifications.
+                        </p>
+                      <div class="tab-title" style="color: hsl(76, 100%, 81%);">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >SKILLS</p>
+                        <p class="tab-links" onclick="opentab('educ')">EDUCATION</p>
+                      </div>
+                         
+                          <div class="tab-con active-tab" id="skills">
+                            <ul>
+                                <li class="sub-tab" id="tech"> Technical Skills
+                                   <div class="mini">
+                                    <p><i class="fa-solid fa-star"></i> C</p>
+                                    <p><i class="fa-solid fa-star"></i>Java</p>
+                                    <p><i class="fa-solid fa-star"></i>HTML CSS</p>
+                                    </div>
+                                    <img src="images/C.jpg" >
+                                    <img src="images/java.jpg" >
+                                    <img src="images/html.jpg">
+                                </li>
+                                <li class="sub-tab" >Non-Technical Skills
+                                    <div class="mini">
+                                        <p><i class="fa-solid fa-star"></i>Active Listener</p>
+                                        <p><i class="fa-solid fa-star"></i>Quick Learner</p>
+                                        <p><i class="fa-solid fa-star"></i>Teamplayer</p>
+                                        <p><i class="fa-solid fa-star"></i>Adaptibility</p>
+                                        <p><i class="fa-solid fa-star"></i>Communiction</p>
+                                        </div>
+                                    <img src="images/activelistening.jpg">
+                                    <img src="images/quick_learner.png">
+                                    <img src="images/adaptibility.jpg">                                    
+                                    <img src="images/teamplayer.webp">
+                                    <img src="images/communication.jpg">
+                                                          
+                                </li>
+                                <li class="sub-tab"  >Familiar Tools       
+                                    <div class="mini">
+                                        <p><i class="fa-solid fa-star"></i>Netbeans</p>
+                                        <p><i class="fa-solid fa-star"></i>Eclipse</p>
+                                        <p><i class="fa-solid fa-star"></i>CodeBlocks</p>
+                                        <p><i class="fa-solid fa-star"></i>Figma</p>
+                                        <p><i class="fa-solid fa-star"></i>Visual Studio</p>
+                                        </div>
+                                    <img src ="images/eclipse.png">        
+                                   <img src="images/netbeans.png">                             
+                                    <img src="images/canva.png">
+                                    <img src="images/figma.png">
+                                    <img src="images/vs.png" ></li>
+                            </ul>
+                          </div>
+
+                         
+                          <div class="tab-con"  id="educ">
+                            <div id="services">
+                                <div class="container">
+
+                                    <div class="services-lis">
+                                        
+                                        <div>                                            
+                                            <h2><i class="fa-solid fa-school"></i>  SSLC</h2>
+                                            <p>School:Loyola English Medium High School Shimoga </p>
+                                            <p style="color: rgb(0, 19, 61);">Percentage:95.52%</p>                                           
+                                        </div>
+                                        <div>
+                                            <h2><i class="fa-solid fa-building-columns"></i>  PUC</h2>
+                                            <p>College:Acharya PU College Shimoga </p>
+                                            <p style="color: rgb(0, 19, 61);">Percentage:95.16%</p>
+                                           
+                                        </div>
+                                        <div>
+                                            <h2><i class="fa-solid fa-graduation-cap" style="font-size: 20px;"></i> BE(CS&E)</h2>
+                                            <p>College:Jawaharlal Nehru New College Of Engineering Shimoga</p>
+                                            <p style="color: rgb(0, 19, 61);">CGPA:8.74</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div> 
+            </div>           
+    <!-- porfolio -->
+    <div id="portfolio">
+        <div class="container">
+                    <h1 class="sub-title">My Projects</h1>
+                    <div class="work-lis">
+                        <div class="work">
+                            <img src="images/im1.png" height="100%">
+                        <div class="laer">
+                            <h3>Server Notification Management System</h3>
+                            <p>This project was mainly based on database management. To develop this system Java Swing is used as frontend and MySQL was 
+                                used as backend.This system is about how the server down notification can be handeled within an organisation.
+                            </p>
+                            <a href="https://github.com/ChaithraUppar/projects/blob/main/Server_Notification_Management_System.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/im2.png" >
+                            <div class="laer">
+                                <h3>Computer Graphics</h3>
+                                <p>This project was based on computer graphics. In this project using openGL library and visual studio tool 
+                                    a plane game was developed.
+                                </p>
+                                <a href="https://github.com/ChaithraUppar/projects/blob/main/Stunt%20Plane%20Game.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div></div>
+                        <div class="work"><img src="images/im4.webp" />
+                            <div class="laer">
+                                <h3>Women safe app</h3>
+                                <p>This project was mainly based on Mobile App Development. Using Kotlin and Android
+                                    Studio tool it is developed. </p>
+                                <a href="https://github.com/ChaithraUppar/projects/blob/main/Women%20Safety%20App.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </div>
+                        </div>     
+                        <!-- <div class="work"><img src="images/food app.png" />
+                            <div class="laer">
+                                <h3>Food Delivery App</h3>
+                                <p>This project was mainly based on Full Stack Web Deveopment. Using MERN it is developed. </p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                            </div>
+                        </div>                      -->
+                </div>
+              <a href="https://github.com/ChaithraUppar/projects" class="btn" id="see">See more</a>
+                </div>
+    </div>
+    <!-- conac -->
+    <div id="cona">
+        <div class="container">
+            <div class="row">
+               <div class="con-lef">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope" ></i>   chaithra0413@gmail.com</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/chaithra-r-0413c"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href ="images/Chaithra_R_portfolio.pdf" download class="btn btn2">Download CV</a>
+               </div>
+
+            <!-- <div class="con-rig">
+                <form>
+                    <input type="text" name="Name" placeholder="Name" required/>
+                    <input type="email" name="email" placeholder="Email" required/>
+                    <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    </form> -->
+                    
+            </div>
+        </div>
+        <div class="coprig">
+            <p>Copyright &copy Chaithra</p>
+        </div>
+    </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcons=document.getElementsByClassName("tab-con");
+        var subtabs=document.getElementsByClassName("sub-tab");
+        var subtabcons=document.getElementsByClassName("sub-tabcon");
+        var sidemenus=document.getElementById("sidemenu");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcon of tabcons){
+                tabcon.classList.remove("active-tab");
+            } 
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        } 
+
+        function opensubtab(tabname){
+            for(subtab of subtabs){
+                subtab.classList.remove("active-link");
+            }
+            for(subtabcon of subtabcons){
+                subtabcon.classList.remove("active-tab");
+            } 
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");                                                                                              
+        }
+
+        function openmenu(){           
+            sidemenus.style.right="0";            
+
+        }
+        function closemenu(){     
+            sidemenus.style.right="-400px";
+           }
+      function seemore(){
+        document.getElementsByClassName("work1").style.display="block";
+      }
+    </script>
+</body>
+</html>
