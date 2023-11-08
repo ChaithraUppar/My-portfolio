@@ -157,7 +157,7 @@ width: 60%;
 }
 .tab-con ul li{
     list-style: none;
-    margin: 10px;
+    margin: 30px;
     color: rgb(115, 215, 218);
     font-size: 20px;
     display: flex;
@@ -469,6 +469,10 @@ margin:25px;
         /* justify-content:space-between ; */
 
     }
+    .about{
+        width:100%;
+    }
+        
     .fa-star{
         display: inline;
         font-size: 10px;
