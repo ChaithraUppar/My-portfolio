@@ -306,6 +306,7 @@ height: 100%;
 .btn{
     display: block;
     margin:30px auto;
+     background: #43f3d6;
     width: fit-content;
     border: 1px solid #fff;
     padding: 14px 50px;
