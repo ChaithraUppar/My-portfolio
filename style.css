@@ -9,12 +9,11 @@ html{
 }
 body {
     background: #000;
-      color:#fff;
-     
+      color:#fff;     
 }
 #header {
       width:100%;
-      /* padding-bottom: 30px; */
+      padding: 0px 10%;
       background: #011236;
       position: sticky;
       top:0;
@@ -157,7 +156,7 @@ width: 60%;
 }
 .tab-con ul li{
     list-style: none;
-    margin: 30px;
+    margin: 10px;
     color: rgb(115, 215, 218);
     font-size: 20px;
     display: flex;
@@ -306,13 +305,13 @@ height: 100%;
 .btn{
     display: block;
     margin:30px auto;
-     background: #43f3d6;
     width: fit-content;
     border: 1px solid #fff;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
     transition: background 0.5s;
+     background-color: #43f3d6;
 }
 
 .btn:hover{
@@ -320,7 +319,7 @@ background: white;
 }
 
 
-/* cont/ */
+/* cont */
 #cona{
     margin: 40px 0px;
 }
@@ -397,6 +396,11 @@ nav .fas{
 }
 /* css for small screen */
 @media only screen and (max-width:600px){
+    body{
+        width:100%;
+
+    }
+
     #header {
         width:100%;       
        }
@@ -409,11 +413,12 @@ nav .fas{
         display: none;;
     }
     .header-text #img2{
-        display: block;
+        /* display: block;
         width: 300px;
-        /* height:20%; */
+        /* height:20%; 
         align-items: right;
-        border-radius: 28px;
+        border-radius: 28px; */
+        display: none;
     }
     .header-text p{
         font-size: 20px;
@@ -470,10 +475,6 @@ margin:25px;
         /* justify-content:space-between ; */
 
     }
-    .about{
-        width:100%;
-    }
-        
     .fa-star{
         display: inline;
         font-size: 10px;
@@ -504,6 +505,3 @@ margin:25px;
         }
         
     }
-   
-
-
