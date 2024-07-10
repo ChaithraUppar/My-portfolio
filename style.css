@@ -175,7 +175,7 @@ width: 60%;
     display: none;
 }
 #tech{
-    width: 43%;
+    width: 60%;
     height: auto;
 }
  .tab-con{
@@ -309,6 +309,7 @@ color: #05234b;
     line-height: 2.5em;
     float: left;
 }
+
 .work:hover img{
     transform: scale(1.1);   
 }
