@@ -295,7 +295,20 @@ color: #05234b;
 #educ{
     margin-top: 0%;
 }
+#c{
+    color:#ffffff; 
+    text-decoration: none;
+}
 
+#certi :hover{
+    color: #72e4e4;
+}
+#certi{
+     font-size: 30px;
+    list-style: none;
+    line-height: 2.5em;
+    float: left;
+}
 .work:hover img{
     transform: scale(1.1);   
 }
